@@ -1,0 +1,3 @@
+(library
+ (name analyzer_lib)
+ (libraries yojson))

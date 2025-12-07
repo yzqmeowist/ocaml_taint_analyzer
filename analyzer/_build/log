@@ -1,0 +1,16 @@
+# dune exec analyzer
+# OCAMLPARAM: unset
+# Shared cache: enabled-except-user-rules
+# Shared cache location: /Users/yzq/.cache/dune/db
+# Workspace root: /Users/yzq/projects/plp/project/analyzer
+# Auto-detected concurrency: 10
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; instrument_with = []
+#  }
+$ /Users/yzq/.opam/default/bin/ocamlc.opt -config > /var/folders/x2/4s1kys7j7zl07pjcmc2r0yph0000gn/T/dune_87614c_output

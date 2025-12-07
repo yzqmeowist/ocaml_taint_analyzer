@@ -1,0 +1,8 @@
+lib: [
+  "_build/install/default/lib/analyzer/META"
+  "_build/install/default/lib/analyzer/dune-package"
+  "_build/install/default/lib/analyzer/opam"
+]
+bin: [
+  "_build/install/default/bin/analyzer"
+]

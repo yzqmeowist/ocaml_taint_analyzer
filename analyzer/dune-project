@@ -1,0 +1,24 @@
+(lang dune 3.20)
+
+(name analyzer)
+
+(generate_opam_files true)
+
+(source
+ (github username/reponame))
+
+(authors "Ziqi Yang <ziqi.yang@uzh.ch>")
+
+(license LICENSE)
+
+(documentation https://url/to/documentation)
+
+(package
+ (name analyzer)
+ (synopsis "A simple taint analyzer for JavaScript ASTs")
+ (depends 
+  (ocaml (>= 4.08))
+  (yojson (>= 1.7.0)))
+)
+
+; See the complete stanza docs at https://dune.readthedocs.io/en/stable/reference/dune-project/index.html
