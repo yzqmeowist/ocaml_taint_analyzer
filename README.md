@@ -62,7 +62,7 @@ cd analyzer
 dune build
 ```
 
-3. make sure you have copied the target files to the path `./target-project/app`, execute the analyzer and it will analyze the files:
+3. make sure you have copied the target files to the path `target-project/app`, execute the analyzer and it will analyze the files:
 
 ```
 dune exec analyzer
