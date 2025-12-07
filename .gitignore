@@ -1,0 +1,15 @@
+# OCaml / Dune artifacts
+analyzer/_build/
+analyzer/**/*.cm[ioxat]
+analyzer/**/*.cmt*
+analyzer/**/*.annot
+analyzer/**/*.o
+analyzer/**/*.a
+analyzer/*.install
+analyzer/.merlin
+
+# Node/TypeScript app artifacts
+node_modules/
+target-project/.next/
+*.log
+.env*
