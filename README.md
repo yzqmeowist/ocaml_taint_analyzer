@@ -71,7 +71,7 @@ dune exec taint_analyzer
 ## Expected Output
 
 ```
-Starting Taint Analysis...      
+Starting Taint Analysis...    
 Target Directory: ../target-project/app/
 Found 1 files to analyze.
 
@@ -90,21 +90,4 @@ File: ../target-project/app/page.tsx
      Message: Vulnerability at ../target-project/app/page.tsx:17
 
 Analysis Complete!
-```
-
-## Project Structure
-
-```
-.
-├── analyzer/                 # [Core] OCaml Static Analyzer
-│   ├── bin/main.ml           # Entry point & Automation logic
-│   └── lib/                  # Analysis Logic
-│       ├── ast.ml            # OCaml ADT definitions for JS AST
-│       ├── parser.ml         # JSON to OCaml ADT converter
-│       └── analysis.ml       # Taint tracking algorithm
-├── target-project/           # The vulnerable TypeScript project (Target)
-├── tools/
-│   └── parser.js             # Node.js script to convert JS code to JSON AST
-├── bundled_map.js            # Intermediate bundled file (Auto-generated)
-└── ast.json                  # Intermediate AST JSON (Auto-generated)
 ```
