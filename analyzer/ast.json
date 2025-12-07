@@ -17,91 +17,21 @@
           "type": "ImportSpecifier",
           "imported": {
             "type": "Identifier",
-            "name": "useRouter",
-            "_source_loc": "../target-project/app/page.tsx:3"
+            "name": "useSearchParams",
+            "_source_loc": "../target-project/app/page.tsx:5"
           },
           "local": {
             "type": "Identifier",
-            "name": "useRouter",
-            "_source_loc": "../target-project/app/page.tsx:3"
+            "name": "useSearchParams",
+            "_source_loc": "../target-project/app/page.tsx:5"
           },
-          "_source_loc": "../target-project/app/page.tsx:3"
+          "_source_loc": "../target-project/app/page.tsx:5"
         }
       ],
       "source": {
         "type": "Literal",
         "value": "next/navigation",
         "raw": "\"next/navigation\"",
-        "_source_loc": "../target-project/app/page.tsx:3"
-      },
-      "_source_loc": "../target-project/app/page.tsx:3"
-    },
-    {
-      "type": "ImportDeclaration",
-      "specifiers": [
-        {
-          "type": "ImportDefaultSpecifier",
-          "local": {
-            "type": "Identifier",
-            "name": "Image",
-            "_source_loc": "../target-project/app/page.tsx:4"
-          },
-          "_source_loc": "../target-project/app/page.tsx:4"
-        }
-      ],
-      "source": {
-        "type": "Literal",
-        "value": "next/image",
-        "raw": "\"next/image\"",
-        "_source_loc": "../target-project/app/page.tsx:4"
-      },
-      "_source_loc": "../target-project/app/page.tsx:4"
-    },
-    {
-      "type": "ImportDeclaration",
-      "specifiers": [
-        {
-          "type": "ImportDefaultSpecifier",
-          "local": {
-            "type": "Identifier",
-            "name": "React",
-            "_source_loc": "../target-project/app/page.tsx:5"
-          },
-          "_source_loc": "../target-project/app/page.tsx:5"
-        },
-        {
-          "type": "ImportSpecifier",
-          "imported": {
-            "type": "Identifier",
-            "name": "useEffect",
-            "_source_loc": "../target-project/app/page.tsx:5"
-          },
-          "local": {
-            "type": "Identifier",
-            "name": "useEffect",
-            "_source_loc": "../target-project/app/page.tsx:5"
-          },
-          "_source_loc": "../target-project/app/page.tsx:5"
-        },
-        {
-          "type": "ImportSpecifier",
-          "imported": {
-            "type": "Identifier",
-            "name": "useState",
-            "_source_loc": "../target-project/app/page.tsx:5"
-          },
-          "local": {
-            "type": "Identifier",
-            "name": "useState",
-            "_source_loc": "../target-project/app/page.tsx:5"
-          },
-          "_source_loc": "../target-project/app/page.tsx:5"
-        }
-      ],
-      "source": {
-        "type": "Literal",
-        "value": "react",
-        "raw": "\"react\"",
         "_source_loc": "../target-project/app/page.tsx:5"
       },
       "_source_loc": "../target-project/app/page.tsx:5"
@@ -113,12 +43,26 @@
           "type": "ImportSpecifier",
           "imported": {
             "type": "Identifier",
-            "name": "motion",
+            "name": "useEffect",
             "_source_loc": "../target-project/app/page.tsx:6"
           },
           "local": {
             "type": "Identifier",
-            "name": "motion",
+            "name": "useEffect",
+            "_source_loc": "../target-project/app/page.tsx:6"
+          },
+          "_source_loc": "../target-project/app/page.tsx:6"
+        },
+        {
+          "type": "ImportSpecifier",
+          "imported": {
+            "type": "Identifier",
+            "name": "useRef",
+            "_source_loc": "../target-project/app/page.tsx:6"
+          },
+          "local": {
+            "type": "Identifier",
+            "name": "useRef",
             "_source_loc": "../target-project/app/page.tsx:6"
           },
           "_source_loc": "../target-project/app/page.tsx:6"
@@ -126,580 +70,326 @@
       ],
       "source": {
         "type": "Literal",
-        "value": "framer-motion",
-        "raw": "\"framer-motion\"",
+        "value": "react",
+        "raw": "\"react\"",
         "_source_loc": "../target-project/app/page.tsx:6"
       },
       "_source_loc": "../target-project/app/page.tsx:6"
     },
     {
-      "type": "ImportDeclaration",
-      "specifiers": [
-        {
-          "type": "ImportSpecifier",
-          "imported": {
-            "type": "Identifier",
-            "name": "Layout",
-            "_source_loc": "../target-project/app/page.tsx:7"
-          },
-          "local": {
-            "type": "Identifier",
-            "name": "Layout",
-            "_source_loc": "../target-project/app/page.tsx:7"
-          },
-          "_source_loc": "../target-project/app/page.tsx:7"
-        },
-        {
-          "type": "ImportSpecifier",
-          "imported": {
-            "type": "Identifier",
-            "name": "Row",
-            "_source_loc": "../target-project/app/page.tsx:7"
-          },
-          "local": {
-            "type": "Identifier",
-            "name": "Row",
-            "_source_loc": "../target-project/app/page.tsx:7"
-          },
-          "_source_loc": "../target-project/app/page.tsx:7"
-        },
-        {
-          "type": "ImportSpecifier",
-          "imported": {
-            "type": "Identifier",
-            "name": "Col",
-            "_source_loc": "../target-project/app/page.tsx:7"
-          },
-          "local": {
-            "type": "Identifier",
-            "name": "Col",
-            "_source_loc": "../target-project/app/page.tsx:7"
-          },
-          "_source_loc": "../target-project/app/page.tsx:7"
-        }
-      ],
-      "source": {
-        "type": "Literal",
-        "value": "antd",
-        "raw": "\"antd\"",
-        "_source_loc": "../target-project/app/page.tsx:7"
+      "type": "FunctionDeclaration",
+      "id": {
+        "type": "Identifier",
+        "name": "VulnerabilityTest",
+        "_source_loc": "../target-project/app/page.tsx:8"
       },
-      "_source_loc": "../target-project/app/page.tsx:7"
-    },
-    {
-      "type": "VariableDeclaration",
-      "declarations": [
-        {
-          "type": "VariableDeclarator",
-          "id": {
-            "type": "ObjectPattern",
-            "properties": [
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "declarations": [
               {
-                "type": "Property",
-                "method": false,
-                "shorthand": true,
-                "computed": false,
-                "key": {
+                "type": "VariableDeclarator",
+                "id": {
                   "type": "Identifier",
-                  "name": "Content",
+                  "name": "searchParams",
                   "_source_loc": "../target-project/app/page.tsx:9"
                 },
-                "value": {
-                  "type": "Identifier",
-                  "name": "Content",
+                "init": {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "Identifier",
+                    "name": "useSearchParams",
+                    "_source_loc": "../target-project/app/page.tsx:9"
+                  },
+                  "arguments": [],
+                  "optional": false,
                   "_source_loc": "../target-project/app/page.tsx:9"
                 },
-                "kind": "init",
                 "_source_loc": "../target-project/app/page.tsx:9"
               }
             ],
+            "kind": "const",
             "_source_loc": "../target-project/app/page.tsx:9"
           },
-          "init": {
-            "type": "Identifier",
-            "name": "Layout",
-            "_source_loc": "../target-project/app/page.tsx:9"
-          },
-          "_source_loc": "../target-project/app/page.tsx:9"
-        }
-      ],
-      "kind": "var",
-      "_source_loc": "../target-project/app/page.tsx:9"
-    },
-    {
-      "type": "VariableDeclaration",
-      "declarations": [
-        {
-          "type": "VariableDeclarator",
-          "id": {
-            "type": "Identifier",
-            "name": "HomePage",
-            "_source_loc": "../target-project/app/page.tsx:11"
-          },
-          "init": {
-            "type": "ArrowFunctionExpression",
-            "id": null,
-            "expression": false,
-            "generator": false,
-            "async": false,
-            "params": [],
-            "body": {
-              "type": "BlockStatement",
-              "body": [
-                {
-                  "type": "VariableDeclaration",
-                  "declarations": [
+          {
+            "type": "VariableDeclaration",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "id": {
+                  "type": "Identifier",
+                  "name": "containerRef",
+                  "_source_loc": "../target-project/app/page.tsx:10"
+                },
+                "init": {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "Identifier",
+                    "name": "useRef",
+                    "_source_loc": "../target-project/app/page.tsx:10"
+                  },
+                  "arguments": [
                     {
-                      "type": "VariableDeclarator",
-                      "id": {
-                        "type": "Identifier",
-                        "name": "router",
-                        "_source_loc": "../target-project/app/page.tsx:12"
-                      },
-                      "init": {
-                        "type": "CallExpression",
-                        "callee": {
-                          "type": "Identifier",
-                          "name": "useRouter",
-                          "_source_loc": "../target-project/app/page.tsx:12"
-                        },
-                        "arguments": [],
-                        "optional": false,
-                        "_source_loc": "../target-project/app/page.tsx:12"
-                      },
-                      "_source_loc": "../target-project/app/page.tsx:12"
+                      "type": "Literal",
+                      "value": null,
+                      "raw": "null",
+                      "_source_loc": "../target-project/app/page.tsx:10"
                     }
                   ],
-                  "kind": "const",
+                  "optional": false,
+                  "_source_loc": "../target-project/app/page.tsx:10"
+                },
+                "_source_loc": "../target-project/app/page.tsx:10"
+              }
+            ],
+            "kind": "const",
+            "_source_loc": "../target-project/app/page.tsx:10"
+          },
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "Identifier",
+                "name": "useEffect",
+                "_source_loc": "../target-project/app/page.tsx:12"
+              },
+              "arguments": [
+                {
+                  "type": "ArrowFunctionExpression",
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "body": [
+                      {
+                        "type": "VariableDeclaration",
+                        "declarations": [
+                          {
+                            "type": "VariableDeclarator",
+                            "id": {
+                              "type": "Identifier",
+                              "name": "userPayload",
+                              "_source_loc": "../target-project/app/page.tsx:13"
+                            },
+                            "init": {
+                              "type": "CallExpression",
+                              "callee": {
+                                "type": "MemberExpression",
+                                "object": {
+                                  "type": "Identifier",
+                                  "name": "searchParams",
+                                  "_source_loc": "../target-project/app/page.tsx:13"
+                                },
+                                "property": {
+                                  "type": "Identifier",
+                                  "name": "get",
+                                  "_source_loc": "../target-project/app/page.tsx:13"
+                                },
+                                "computed": false,
+                                "optional": false,
+                                "_source_loc": "../target-project/app/page.tsx:13"
+                              },
+                              "arguments": [
+                                {
+                                  "type": "Literal",
+                                  "value": "payload",
+                                  "raw": "\"payload\"",
+                                  "_source_loc": "../target-project/app/page.tsx:13"
+                                }
+                              ],
+                              "optional": false,
+                              "_source_loc": "../target-project/app/page.tsx:13"
+                            },
+                            "_source_loc": "../target-project/app/page.tsx:13"
+                          }
+                        ],
+                        "kind": "const",
+                        "_source_loc": "../target-project/app/page.tsx:13"
+                      },
+                      {
+                        "type": "IfStatement",
+                        "test": {
+                          "type": "LogicalExpression",
+                          "left": {
+                            "type": "Identifier",
+                            "name": "userPayload",
+                            "_source_loc": "../target-project/app/page.tsx:15"
+                          },
+                          "operator": "&&",
+                          "right": {
+                            "type": "MemberExpression",
+                            "object": {
+                              "type": "Identifier",
+                              "name": "containerRef",
+                              "_source_loc": "../target-project/app/page.tsx:15"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "name": "current",
+                              "_source_loc": "../target-project/app/page.tsx:15"
+                            },
+                            "computed": false,
+                            "optional": false,
+                            "_source_loc": "../target-project/app/page.tsx:15"
+                          },
+                          "_source_loc": "../target-project/app/page.tsx:15"
+                        },
+                        "consequent": {
+                          "type": "BlockStatement",
+                          "body": [
+                            {
+                              "type": "ExpressionStatement",
+                              "expression": {
+                                "type": "CallExpression",
+                                "callee": {
+                                  "type": "MemberExpression",
+                                  "object": {
+                                    "type": "Identifier",
+                                    "name": "console",
+                                    "_source_loc": "../target-project/app/page.tsx:16"
+                                  },
+                                  "property": {
+                                    "type": "Identifier",
+                                    "name": "log",
+                                    "_source_loc": "../target-project/app/page.tsx:16"
+                                  },
+                                  "computed": false,
+                                  "optional": false,
+                                  "_source_loc": "../target-project/app/page.tsx:16"
+                                },
+                                "arguments": [
+                                  {
+                                    "type": "Literal",
+                                    "value": "Injecting payload...",
+                                    "raw": "\"Injecting payload...\"",
+                                    "_source_loc": "../target-project/app/page.tsx:16"
+                                  }
+                                ],
+                                "optional": false,
+                                "_source_loc": "../target-project/app/page.tsx:16"
+                              },
+                              "_source_loc": "../target-project/app/page.tsx:16"
+                            },
+                            {
+                              "type": "ExpressionStatement",
+                              "expression": {
+                                "type": "AssignmentExpression",
+                                "operator": "=",
+                                "left": {
+                                  "type": "MemberExpression",
+                                  "object": {
+                                    "type": "MemberExpression",
+                                    "object": {
+                                      "type": "Identifier",
+                                      "name": "containerRef",
+                                      "_source_loc": "../target-project/app/page.tsx:17"
+                                    },
+                                    "property": {
+                                      "type": "Identifier",
+                                      "name": "current",
+                                      "_source_loc": "../target-project/app/page.tsx:17"
+                                    },
+                                    "computed": false,
+                                    "optional": false,
+                                    "_source_loc": "../target-project/app/page.tsx:17"
+                                  },
+                                  "property": {
+                                    "type": "Identifier",
+                                    "name": "innerHTML",
+                                    "_source_loc": "../target-project/app/page.tsx:17"
+                                  },
+                                  "computed": false,
+                                  "optional": false,
+                                  "_source_loc": "../target-project/app/page.tsx:17"
+                                },
+                                "right": {
+                                  "type": "Identifier",
+                                  "name": "userPayload",
+                                  "_source_loc": "../target-project/app/page.tsx:17"
+                                },
+                                "_source_loc": "../target-project/app/page.tsx:17"
+                              },
+                              "_source_loc": "../target-project/app/page.tsx:17"
+                            }
+                          ],
+                          "_source_loc": "../target-project/app/page.tsx:15"
+                        },
+                        "alternate": null,
+                        "_source_loc": "../target-project/app/page.tsx:15"
+                      }
+                    ],
+                    "_source_loc": "../target-project/app/page.tsx:12"
+                  },
                   "_source_loc": "../target-project/app/page.tsx:12"
                 },
                 {
-                  "type": "VariableDeclaration",
-                  "declarations": [
+                  "type": "ArrayExpression",
+                  "elements": [
                     {
-                      "type": "VariableDeclarator",
-                      "id": {
-                        "type": "ArrayPattern",
-                        "elements": [
-                          {
-                            "type": "Identifier",
-                            "name": "startAnimation",
-                            "_source_loc": "../target-project/app/page.tsx:13"
-                          },
-                          {
-                            "type": "Identifier",
-                            "name": "setStartAnimation",
-                            "_source_loc": "../target-project/app/page.tsx:13"
-                          }
-                        ],
-                        "_source_loc": "../target-project/app/page.tsx:13"
-                      },
-                      "init": {
-                        "type": "CallExpression",
-                        "callee": {
-                          "type": "Identifier",
-                          "name": "useState",
-                          "_source_loc": "../target-project/app/page.tsx:13"
-                        },
-                        "arguments": [
-                          {
-                            "type": "Literal",
-                            "value": false,
-                            "raw": "false",
-                            "_source_loc": "../target-project/app/page.tsx:13"
-                          }
-                        ],
-                        "optional": false,
-                        "_source_loc": "../target-project/app/page.tsx:13"
-                      },
-                      "_source_loc": "../target-project/app/page.tsx:13"
+                      "type": "Identifier",
+                      "name": "searchParams",
+                      "_source_loc": "../target-project/app/page.tsx:19"
                     }
                   ],
-                  "kind": "const",
-                  "_source_loc": "../target-project/app/page.tsx:13"
+                  "_source_loc": "../target-project/app/page.tsx:19"
+                }
+              ],
+              "optional": false,
+              "_source_loc": "../target-project/app/page.tsx:12"
+            },
+            "_source_loc": "../target-project/app/page.tsx:12"
+          },
+          {
+            "type": "ReturnStatement",
+            "argument": {
+              "type": "CallExpression",
+              "callee": {
+                "type": "MemberExpression",
+                "object": {
+                  "type": "Identifier",
+                  "name": "React",
+                  "_source_loc": "../target-project/app/page.tsx:22"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "createElement",
+                  "_source_loc": "../target-project/app/page.tsx:22"
+                },
+                "computed": false,
+                "optional": false,
+                "_source_loc": "../target-project/app/page.tsx:22"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "value": "div",
+                  "raw": "\"div\"",
+                  "_source_loc": "../target-project/app/page.tsx:22"
                 },
                 {
-                  "type": "VariableDeclaration",
-                  "declarations": [
+                  "type": "ObjectExpression",
+                  "properties": [
                     {
-                      "type": "VariableDeclarator",
-                      "id": {
-                        "type": "ArrayPattern",
-                        "elements": [
-                          {
-                            "type": "Identifier",
-                            "name": "redirectReady",
-                            "_source_loc": "../target-project/app/page.tsx:14"
-                          },
-                          {
-                            "type": "Identifier",
-                            "name": "setRedirectReady",
-                            "_source_loc": "../target-project/app/page.tsx:14"
-                          }
-                        ],
-                        "_source_loc": "../target-project/app/page.tsx:14"
-                      },
-                      "init": {
-                        "type": "CallExpression",
-                        "callee": {
-                          "type": "Identifier",
-                          "name": "useState",
-                          "_source_loc": "../target-project/app/page.tsx:14"
-                        },
-                        "arguments": [
-                          {
-                            "type": "Literal",
-                            "value": false,
-                            "raw": "false",
-                            "_source_loc": "../target-project/app/page.tsx:14"
-                          }
-                        ],
-                        "optional": false,
-                        "_source_loc": "../target-project/app/page.tsx:14"
-                      },
-                      "_source_loc": "../target-project/app/page.tsx:14"
-                    }
-                  ],
-                  "kind": "const",
-                  "_source_loc": "../target-project/app/page.tsx:14"
-                },
-                {
-                  "type": "ExpressionStatement",
-                  "expression": {
-                    "type": "CallExpression",
-                    "callee": {
-                      "type": "Identifier",
-                      "name": "useEffect",
-                      "_source_loc": "../target-project/app/page.tsx:16"
-                    },
-                    "arguments": [
-                      {
-                        "type": "ArrowFunctionExpression",
-                        "id": null,
-                        "expression": false,
-                        "generator": false,
-                        "async": false,
-                        "params": [],
-                        "body": {
-                          "type": "BlockStatement",
-                          "body": [
-                            {
-                              "type": "VariableDeclaration",
-                              "declarations": [
-                                {
-                                  "type": "VariableDeclarator",
-                                  "id": {
-                                    "type": "Identifier",
-                                    "name": "startTimer",
-                                    "_source_loc": "../target-project/app/page.tsx:17"
-                                  },
-                                  "init": {
-                                    "type": "CallExpression",
-                                    "callee": {
-                                      "type": "Identifier",
-                                      "name": "setTimeout",
-                                      "_source_loc": "../target-project/app/page.tsx:17"
-                                    },
-                                    "arguments": [
-                                      {
-                                        "type": "ArrowFunctionExpression",
-                                        "id": null,
-                                        "expression": true,
-                                        "generator": false,
-                                        "async": false,
-                                        "params": [],
-                                        "body": {
-                                          "type": "CallExpression",
-                                          "callee": {
-                                            "type": "Identifier",
-                                            "name": "setStartAnimation",
-                                            "_source_loc": "../target-project/app/page.tsx:17"
-                                          },
-                                          "arguments": [
-                                            {
-                                              "type": "Literal",
-                                              "value": true,
-                                              "raw": "true",
-                                              "_source_loc": "../target-project/app/page.tsx:17"
-                                            }
-                                          ],
-                                          "optional": false,
-                                          "_source_loc": "../target-project/app/page.tsx:17"
-                                        },
-                                        "_source_loc": "../target-project/app/page.tsx:17"
-                                      },
-                                      {
-                                        "type": "Literal",
-                                        "value": 300,
-                                        "raw": "300",
-                                        "_source_loc": "../target-project/app/page.tsx:17"
-                                      }
-                                    ],
-                                    "optional": false,
-                                    "_source_loc": "../target-project/app/page.tsx:17"
-                                  },
-                                  "_source_loc": "../target-project/app/page.tsx:17"
-                                }
-                              ],
-                              "kind": "const",
-                              "_source_loc": "../target-project/app/page.tsx:17"
-                            },
-                            {
-                              "type": "VariableDeclaration",
-                              "declarations": [
-                                {
-                                  "type": "VariableDeclarator",
-                                  "id": {
-                                    "type": "Identifier",
-                                    "name": "redirectTimer",
-                                    "_source_loc": "../target-project/app/page.tsx:18"
-                                  },
-                                  "init": {
-                                    "type": "CallExpression",
-                                    "callee": {
-                                      "type": "Identifier",
-                                      "name": "setTimeout",
-                                      "_source_loc": "../target-project/app/page.tsx:18"
-                                    },
-                                    "arguments": [
-                                      {
-                                        "type": "ArrowFunctionExpression",
-                                        "id": null,
-                                        "expression": true,
-                                        "generator": false,
-                                        "async": false,
-                                        "params": [],
-                                        "body": {
-                                          "type": "CallExpression",
-                                          "callee": {
-                                            "type": "Identifier",
-                                            "name": "setRedirectReady",
-                                            "_source_loc": "../target-project/app/page.tsx:18"
-                                          },
-                                          "arguments": [
-                                            {
-                                              "type": "Literal",
-                                              "value": true,
-                                              "raw": "true",
-                                              "_source_loc": "../target-project/app/page.tsx:18"
-                                            }
-                                          ],
-                                          "optional": false,
-                                          "_source_loc": "../target-project/app/page.tsx:18"
-                                        },
-                                        "_source_loc": "../target-project/app/page.tsx:18"
-                                      },
-                                      {
-                                        "type": "Literal",
-                                        "value": 1000,
-                                        "raw": "1e3",
-                                        "_source_loc": "../target-project/app/page.tsx:18"
-                                      }
-                                    ],
-                                    "optional": false,
-                                    "_source_loc": "../target-project/app/page.tsx:18"
-                                  },
-                                  "_source_loc": "../target-project/app/page.tsx:18"
-                                }
-                              ],
-                              "kind": "const",
-                              "_source_loc": "../target-project/app/page.tsx:18"
-                            },
-                            {
-                              "type": "ReturnStatement",
-                              "argument": {
-                                "type": "ArrowFunctionExpression",
-                                "id": null,
-                                "expression": false,
-                                "generator": false,
-                                "async": false,
-                                "params": [],
-                                "body": {
-                                  "type": "BlockStatement",
-                                  "body": [
-                                    {
-                                      "type": "ExpressionStatement",
-                                      "expression": {
-                                        "type": "CallExpression",
-                                        "callee": {
-                                          "type": "Identifier",
-                                          "name": "clearTimeout",
-                                          "_source_loc": "../target-project/app/page.tsx:21"
-                                        },
-                                        "arguments": [
-                                          {
-                                            "type": "Identifier",
-                                            "name": "startTimer",
-                                            "_source_loc": "../target-project/app/page.tsx:21"
-                                          }
-                                        ],
-                                        "optional": false,
-                                        "_source_loc": "../target-project/app/page.tsx:21"
-                                      },
-                                      "_source_loc": "../target-project/app/page.tsx:21"
-                                    },
-                                    {
-                                      "type": "ExpressionStatement",
-                                      "expression": {
-                                        "type": "CallExpression",
-                                        "callee": {
-                                          "type": "Identifier",
-                                          "name": "clearTimeout",
-                                          "_source_loc": "../target-project/app/page.tsx:22"
-                                        },
-                                        "arguments": [
-                                          {
-                                            "type": "Identifier",
-                                            "name": "redirectTimer",
-                                            "_source_loc": "../target-project/app/page.tsx:22"
-                                          }
-                                        ],
-                                        "optional": false,
-                                        "_source_loc": "../target-project/app/page.tsx:22"
-                                      },
-                                      "_source_loc": "../target-project/app/page.tsx:22"
-                                    }
-                                  ],
-                                  "_source_loc": "../target-project/app/page.tsx:20"
-                                },
-                                "_source_loc": "../target-project/app/page.tsx:20"
-                              },
-                              "_source_loc": "../target-project/app/page.tsx:20"
-                            }
-                          ],
-                          "_source_loc": "../target-project/app/page.tsx:16"
-                        },
-                        "_source_loc": "../target-project/app/page.tsx:16"
-                      },
-                      {
-                        "type": "ArrayExpression",
-                        "elements": [],
-                        "_source_loc": "../target-project/app/page.tsx:24"
-                      }
-                    ],
-                    "optional": false,
-                    "_source_loc": "../target-project/app/page.tsx:16"
-                  },
-                  "_source_loc": "../target-project/app/page.tsx:16"
-                },
-                {
-                  "type": "ExpressionStatement",
-                  "expression": {
-                    "type": "CallExpression",
-                    "callee": {
-                      "type": "Identifier",
-                      "name": "useEffect",
-                      "_source_loc": "../target-project/app/page.tsx:26"
-                    },
-                    "arguments": [
-                      {
-                        "type": "ArrowFunctionExpression",
-                        "id": null,
-                        "expression": false,
-                        "generator": false,
-                        "async": false,
-                        "params": [],
-                        "body": {
-                          "type": "BlockStatement",
-                          "body": [
-                            {
-                              "type": "IfStatement",
-                              "test": {
-                                "type": "Identifier",
-                                "name": "redirectReady",
-                                "_source_loc": "../target-project/app/page.tsx:27"
-                              },
-                              "consequent": {
-                                "type": "BlockStatement",
-                                "body": [
-                                  {
-                                    "type": "ExpressionStatement",
-                                    "expression": {
-                                      "type": "CallExpression",
-                                      "callee": {
-                                        "type": "MemberExpression",
-                                        "object": {
-                                          "type": "Identifier",
-                                          "name": "router",
-                                          "_source_loc": "../target-project/app/page.tsx:28"
-                                        },
-                                        "property": {
-                                          "type": "Identifier",
-                                          "name": "push",
-                                          "_source_loc": "../target-project/app/page.tsx:28"
-                                        },
-                                        "computed": false,
-                                        "optional": false,
-                                        "_source_loc": "../target-project/app/page.tsx:28"
-                                      },
-                                      "arguments": [
-                                        {
-                                          "type": "Literal",
-                                          "value": "/users/login",
-                                          "raw": "\"/users/login\"",
-                                          "_source_loc": "../target-project/app/page.tsx:28"
-                                        }
-                                      ],
-                                      "optional": false,
-                                      "_source_loc": "../target-project/app/page.tsx:28"
-                                    },
-                                    "_source_loc": "../target-project/app/page.tsx:28"
-                                  }
-                                ],
-                                "_source_loc": "../target-project/app/page.tsx:27"
-                              },
-                              "alternate": null,
-                              "_source_loc": "../target-project/app/page.tsx:27"
-                            }
-                          ],
-                          "_source_loc": "../target-project/app/page.tsx:26"
-                        },
-                        "_source_loc": "../target-project/app/page.tsx:26"
-                      },
-                      {
-                        "type": "ArrayExpression",
-                        "elements": [
-                          {
-                            "type": "Identifier",
-                            "name": "redirectReady",
-                            "_source_loc": "../target-project/app/page.tsx:30"
-                          }
-                        ],
-                        "_source_loc": "../target-project/app/page.tsx:30"
-                      }
-                    ],
-                    "optional": false,
-                    "_source_loc": "../target-project/app/page.tsx:26"
-                  },
-                  "_source_loc": "../target-project/app/page.tsx:26"
-                },
-                {
-                  "type": "ReturnStatement",
-                  "argument": {
-                    "type": "CallExpression",
-                    "callee": {
-                      "type": "MemberExpression",
-                      "object": {
-                        "type": "Identifier",
-                        "name": "React",
-                        "_source_loc": "../target-project/app/page.tsx:33"
-                      },
-                      "property": {
-                        "type": "Identifier",
-                        "name": "createElement",
-                        "_source_loc": "../target-project/app/page.tsx:33"
-                      },
+                      "type": "Property",
+                      "method": false,
+                      "shorthand": false,
                       "computed": false,
-                      "optional": false,
-                      "_source_loc": "../target-project/app/page.tsx:33"
-                    },
-                    "arguments": [
-                      {
+                      "key": {
                         "type": "Identifier",
-                        "name": "Content",
-                        "_source_loc": "../target-project/app/page.tsx:33"
+                        "name": "style",
+                        "_source_loc": "../target-project/app/page.tsx:22"
                       },
-                      {
+                      "value": {
                         "type": "ObjectExpression",
                         "properties": [
                           {
@@ -709,122 +399,166 @@
                             "computed": false,
                             "key": {
                               "type": "Identifier",
-                              "name": "style",
-                              "_source_loc": "../target-project/app/page.tsx:33"
+                              "name": "padding",
+                              "_source_loc": "../target-project/app/page.tsx:22"
                             },
                             "value": {
-                              "type": "ObjectExpression",
-                              "properties": [
-                                {
-                                  "type": "Property",
-                                  "method": false,
-                                  "shorthand": false,
-                                  "computed": false,
-                                  "key": {
-                                    "type": "Identifier",
-                                    "name": "height",
-                                    "_source_loc": "../target-project/app/page.tsx:33"
-                                  },
-                                  "value": {
-                                    "type": "Literal",
-                                    "value": "100vh",
-                                    "raw": "\"100vh\"",
-                                    "_source_loc": "../target-project/app/page.tsx:33"
-                                  },
-                                  "kind": "init",
-                                  "_source_loc": "../target-project/app/page.tsx:33"
-                                },
-                                {
-                                  "type": "Property",
-                                  "method": false,
-                                  "shorthand": false,
-                                  "computed": false,
-                                  "key": {
-                                    "type": "Identifier",
-                                    "name": "padding",
-                                    "_source_loc": "../target-project/app/page.tsx:33"
-                                  },
-                                  "value": {
-                                    "type": "Literal",
-                                    "value": "50px",
-                                    "raw": "\"50px\"",
-                                    "_source_loc": "../target-project/app/page.tsx:33"
-                                  },
-                                  "kind": "init",
-                                  "_source_loc": "../target-project/app/page.tsx:33"
-                                },
-                                {
-                                  "type": "Property",
-                                  "method": false,
-                                  "shorthand": false,
-                                  "computed": false,
-                                  "key": {
-                                    "type": "Identifier",
-                                    "name": "position",
-                                    "_source_loc": "../target-project/app/page.tsx:33"
-                                  },
-                                  "value": {
-                                    "type": "Literal",
-                                    "value": "relative",
-                                    "raw": "\"relative\"",
-                                    "_source_loc": "../target-project/app/page.tsx:33"
-                                  },
-                                  "kind": "init",
-                                  "_source_loc": "../target-project/app/page.tsx:33"
-                                },
-                                {
-                                  "type": "Property",
-                                  "method": false,
-                                  "shorthand": false,
-                                  "computed": false,
-                                  "key": {
-                                    "type": "Identifier",
-                                    "name": "overflow",
-                                    "_source_loc": "../target-project/app/page.tsx:33"
-                                  },
-                                  "value": {
-                                    "type": "Literal",
-                                    "value": "hidden",
-                                    "raw": "\"hidden\"",
-                                    "_source_loc": "../target-project/app/page.tsx:33"
-                                  },
-                                  "kind": "init",
-                                  "_source_loc": "../target-project/app/page.tsx:33"
-                                }
-                              ],
-                              "_source_loc": "../target-project/app/page.tsx:33"
+                              "type": "Literal",
+                              "value": 20,
+                              "raw": "20",
+                              "_source_loc": "../target-project/app/page.tsx:22"
                             },
                             "kind": "init",
-                            "_source_loc": "../target-project/app/page.tsx:33"
+                            "_source_loc": "../target-project/app/page.tsx:22"
                           }
                         ],
-                        "_source_loc": "../target-project/app/page.tsx:33"
+                        "_source_loc": "../target-project/app/page.tsx:22"
                       },
-                      {
-                        "type": "CallExpression",
-                        "callee": {
-                          "type": "MemberExpression",
-                          "object": {
-                            "type": "Identifier",
-                            "name": "React",
-                            "_source_loc": "../target-project/app/page.tsx:34"
-                          },
-                          "property": {
-                            "type": "Identifier",
-                            "name": "createElement",
-                            "_source_loc": "../target-project/app/page.tsx:34"
-                          },
+                      "kind": "init",
+                      "_source_loc": "../target-project/app/page.tsx:22"
+                    }
+                  ],
+                  "_source_loc": "../target-project/app/page.tsx:22"
+                },
+                {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "Identifier",
+                      "name": "React",
+                      "_source_loc": "../target-project/app/page.tsx:23"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "createElement",
+                      "_source_loc": "../target-project/app/page.tsx:23"
+                    },
+                    "computed": false,
+                    "optional": false,
+                    "_source_loc": "../target-project/app/page.tsx:23"
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "value": "h1",
+                      "raw": "\"h1\"",
+                      "_source_loc": "../target-project/app/page.tsx:23"
+                    },
+                    {
+                      "type": "Literal",
+                      "value": null,
+                      "raw": "null",
+                      "_source_loc": "../target-project/app/page.tsx:23"
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "XSS Test Arena",
+                      "raw": "\"XSS Test Arena\"",
+                      "_source_loc": "../target-project/app/page.tsx:23"
+                    }
+                  ],
+                  "optional": false,
+                  "_source_loc": "../target-project/app/page.tsx:23"
+                },
+                {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "Identifier",
+                      "name": "React",
+                      "_source_loc": "../target-project/app/page.tsx:24"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "createElement",
+                      "_source_loc": "../target-project/app/page.tsx:24"
+                    },
+                    "computed": false,
+                    "optional": false,
+                    "_source_loc": "../target-project/app/page.tsx:24"
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "value": "p",
+                      "raw": "\"p\"",
+                      "_source_loc": "../target-project/app/page.tsx:24"
+                    },
+                    {
+                      "type": "Literal",
+                      "value": null,
+                      "raw": "null",
+                      "_source_loc": "../target-project/app/page.tsx:24"
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "Whatever you put in the 'payload' URL parameter will be injected below:",
+                      "raw": "\"Whatever you put in the 'payload' URL parameter will be injected below:\"",
+                      "_source_loc": "../target-project/app/page.tsx:24"
+                    }
+                  ],
+                  "optional": false,
+                  "_source_loc": "../target-project/app/page.tsx:24"
+                },
+                {
+                  "type": "CallExpression",
+                  "callee": {
+                    "type": "MemberExpression",
+                    "object": {
+                      "type": "Identifier",
+                      "name": "React",
+                      "_source_loc": "../target-project/app/page.tsx:25"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "createElement",
+                      "_source_loc": "../target-project/app/page.tsx:25"
+                    },
+                    "computed": false,
+                    "optional": false,
+                    "_source_loc": "../target-project/app/page.tsx:25"
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "value": "div",
+                      "raw": "\"div\"",
+                      "_source_loc": "../target-project/app/page.tsx:25"
+                    },
+                    {
+                      "type": "ObjectExpression",
+                      "properties": [
+                        {
+                          "type": "Property",
+                          "method": false,
+                          "shorthand": false,
                           "computed": false,
-                          "optional": false,
-                          "_source_loc": "../target-project/app/page.tsx:34"
-                        },
-                        "arguments": [
-                          {
+                          "key": {
                             "type": "Identifier",
-                            "name": "Row",
-                            "_source_loc": "../target-project/app/page.tsx:34"
+                            "name": "ref",
+                            "_source_loc": "../target-project/app/page.tsx:26"
                           },
-                          {
+                          "value": {
+                            "type": "Identifier",
+                            "name": "containerRef",
+                            "_source_loc": "../target-project/app/page.tsx:26"
+                          },
+                          "kind": "init",
+                          "_source_loc": "../target-project/app/page.tsx:26"
+                        },
+                        {
+                          "type": "Property",
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "key": {
+                            "type": "Identifier",
+                            "name": "style",
+                            "_source_loc": "../target-project/app/page.tsx:27"
+                          },
+                          "value": {
                             "type": "ObjectExpression",
                             "properties": [
                               {
@@ -834,508 +568,79 @@
                                 "computed": false,
                                 "key": {
                                   "type": "Identifier",
-                                  "name": "justify",
-                                  "_source_loc": "../target-project/app/page.tsx:34"
+                                  "name": "border",
+                                  "_source_loc": "../target-project/app/page.tsx:27"
                                 },
                                 "value": {
                                   "type": "Literal",
-                                  "value": "center",
-                                  "raw": "\"center\"",
-                                  "_source_loc": "../target-project/app/page.tsx:34"
+                                  "value": "2px dashed red",
+                                  "raw": "\"2px dashed red\"",
+                                  "_source_loc": "../target-project/app/page.tsx:27"
                                 },
                                 "kind": "init",
-                                "_source_loc": "../target-project/app/page.tsx:34"
-                              }
-                            ],
-                            "_source_loc": "../target-project/app/page.tsx:34"
-                          },
-                          {
-                            "type": "CallExpression",
-                            "callee": {
-                              "type": "MemberExpression",
-                              "object": {
-                                "type": "Identifier",
-                                "name": "React",
-                                "_source_loc": "../target-project/app/page.tsx:35"
-                              },
-                              "property": {
-                                "type": "Identifier",
-                                "name": "createElement",
-                                "_source_loc": "../target-project/app/page.tsx:35"
-                              },
-                              "computed": false,
-                              "optional": false,
-                              "_source_loc": "../target-project/app/page.tsx:35"
-                            },
-                            "arguments": [
-                              {
-                                "type": "Identifier",
-                                "name": "Col",
-                                "_source_loc": "../target-project/app/page.tsx:35"
+                                "_source_loc": "../target-project/app/page.tsx:27"
                               },
                               {
-                                "type": "Literal",
-                                "value": null,
-                                "raw": "null",
-                                "_source_loc": "../target-project/app/page.tsx:35"
-                              },
-                              {
-                                "type": "LogicalExpression",
-                                "left": {
+                                "type": "Property",
+                                "method": false,
+                                "shorthand": false,
+                                "computed": false,
+                                "key": {
                                   "type": "Identifier",
-                                  "name": "startAnimation",
-                                  "_source_loc": "../target-project/app/page.tsx:36"
+                                  "name": "padding",
+                                  "_source_loc": "../target-project/app/page.tsx:27"
                                 },
-                                "operator": "&&",
-                                "right": {
-                                  "type": "CallExpression",
-                                  "callee": {
-                                    "type": "MemberExpression",
-                                    "object": {
-                                      "type": "Identifier",
-                                      "name": "React",
-                                      "_source_loc": "../target-project/app/page.tsx:37"
-                                    },
-                                    "property": {
-                                      "type": "Identifier",
-                                      "name": "createElement",
-                                      "_source_loc": "../target-project/app/page.tsx:37"
-                                    },
-                                    "computed": false,
-                                    "optional": false,
-                                    "_source_loc": "../target-project/app/page.tsx:37"
-                                  },
-                                  "arguments": [
-                                    {
-                                      "type": "MemberExpression",
-                                      "object": {
-                                        "type": "Identifier",
-                                        "name": "motion",
-                                        "_source_loc": "../target-project/app/page.tsx:37"
-                                      },
-                                      "property": {
-                                        "type": "Identifier",
-                                        "name": "div",
-                                        "_source_loc": "../target-project/app/page.tsx:37"
-                                      },
-                                      "computed": false,
-                                      "optional": false,
-                                      "_source_loc": "../target-project/app/page.tsx:37"
-                                    },
-                                    {
-                                      "type": "ObjectExpression",
-                                      "properties": [
-                                        {
-                                          "type": "Property",
-                                          "method": false,
-                                          "shorthand": false,
-                                          "computed": false,
-                                          "key": {
-                                            "type": "Identifier",
-                                            "name": "initial",
-                                            "_source_loc": "../target-project/app/page.tsx:38"
-                                          },
-                                          "value": {
-                                            "type": "ObjectExpression",
-                                            "properties": [
-                                              {
-                                                "type": "Property",
-                                                "method": false,
-                                                "shorthand": false,
-                                                "computed": false,
-                                                "key": {
-                                                  "type": "Identifier",
-                                                  "name": "opacity",
-                                                  "_source_loc": "../target-project/app/page.tsx:38"
-                                                },
-                                                "value": {
-                                                  "type": "Literal",
-                                                  "value": 0,
-                                                  "raw": "0",
-                                                  "_source_loc": "../target-project/app/page.tsx:38"
-                                                },
-                                                "kind": "init",
-                                                "_source_loc": "../target-project/app/page.tsx:38"
-                                              },
-                                              {
-                                                "type": "Property",
-                                                "method": false,
-                                                "shorthand": false,
-                                                "computed": false,
-                                                "key": {
-                                                  "type": "Identifier",
-                                                  "name": "scale",
-                                                  "_source_loc": "../target-project/app/page.tsx:38"
-                                                },
-                                                "value": {
-                                                  "type": "Literal",
-                                                  "value": 0.8,
-                                                  "raw": "0.8",
-                                                  "_source_loc": "../target-project/app/page.tsx:38"
-                                                },
-                                                "kind": "init",
-                                                "_source_loc": "../target-project/app/page.tsx:38"
-                                              },
-                                              {
-                                                "type": "Property",
-                                                "method": false,
-                                                "shorthand": false,
-                                                "computed": false,
-                                                "key": {
-                                                  "type": "Identifier",
-                                                  "name": "y",
-                                                  "_source_loc": "../target-project/app/page.tsx:38"
-                                                },
-                                                "value": {
-                                                  "type": "Literal",
-                                                  "value": 0,
-                                                  "raw": "0",
-                                                  "_source_loc": "../target-project/app/page.tsx:38"
-                                                },
-                                                "kind": "init",
-                                                "_source_loc": "../target-project/app/page.tsx:38"
-                                              }
-                                            ],
-                                            "_source_loc": "../target-project/app/page.tsx:38"
-                                          },
-                                          "kind": "init",
-                                          "_source_loc": "../target-project/app/page.tsx:38"
-                                        },
-                                        {
-                                          "type": "Property",
-                                          "method": false,
-                                          "shorthand": false,
-                                          "computed": false,
-                                          "key": {
-                                            "type": "Identifier",
-                                            "name": "animate",
-                                            "_source_loc": "../target-project/app/page.tsx:39"
-                                          },
-                                          "value": {
-                                            "type": "ObjectExpression",
-                                            "properties": [
-                                              {
-                                                "type": "Property",
-                                                "method": false,
-                                                "shorthand": false,
-                                                "computed": false,
-                                                "key": {
-                                                  "type": "Identifier",
-                                                  "name": "opacity",
-                                                  "_source_loc": "../target-project/app/page.tsx:39"
-                                                },
-                                                "value": {
-                                                  "type": "Literal",
-                                                  "value": 1,
-                                                  "raw": "1",
-                                                  "_source_loc": "../target-project/app/page.tsx:39"
-                                                },
-                                                "kind": "init",
-                                                "_source_loc": "../target-project/app/page.tsx:39"
-                                              },
-                                              {
-                                                "type": "Property",
-                                                "method": false,
-                                                "shorthand": false,
-                                                "computed": false,
-                                                "key": {
-                                                  "type": "Identifier",
-                                                  "name": "scale",
-                                                  "_source_loc": "../target-project/app/page.tsx:39"
-                                                },
-                                                "value": {
-                                                  "type": "Literal",
-                                                  "value": 1,
-                                                  "raw": "1",
-                                                  "_source_loc": "../target-project/app/page.tsx:39"
-                                                },
-                                                "kind": "init",
-                                                "_source_loc": "../target-project/app/page.tsx:39"
-                                              },
-                                              {
-                                                "type": "Property",
-                                                "method": false,
-                                                "shorthand": false,
-                                                "computed": false,
-                                                "key": {
-                                                  "type": "Identifier",
-                                                  "name": "y",
-                                                  "_source_loc": "../target-project/app/page.tsx:39"
-                                                },
-                                                "value": {
-                                                  "type": "Literal",
-                                                  "value": 50,
-                                                  "raw": "50",
-                                                  "_source_loc": "../target-project/app/page.tsx:39"
-                                                },
-                                                "kind": "init",
-                                                "_source_loc": "../target-project/app/page.tsx:39"
-                                              }
-                                            ],
-                                            "_source_loc": "../target-project/app/page.tsx:39"
-                                          },
-                                          "kind": "init",
-                                          "_source_loc": "../target-project/app/page.tsx:39"
-                                        },
-                                        {
-                                          "type": "Property",
-                                          "method": false,
-                                          "shorthand": false,
-                                          "computed": false,
-                                          "key": {
-                                            "type": "Identifier",
-                                            "name": "transition",
-                                            "_source_loc": "../target-project/app/page.tsx:40"
-                                          },
-                                          "value": {
-                                            "type": "ObjectExpression",
-                                            "properties": [
-                                              {
-                                                "type": "Property",
-                                                "method": false,
-                                                "shorthand": false,
-                                                "computed": false,
-                                                "key": {
-                                                  "type": "Identifier",
-                                                  "name": "duration",
-                                                  "_source_loc": "../target-project/app/page.tsx:40"
-                                                },
-                                                "value": {
-                                                  "type": "Literal",
-                                                  "value": 0.6,
-                                                  "raw": "0.6",
-                                                  "_source_loc": "../target-project/app/page.tsx:40"
-                                                },
-                                                "kind": "init",
-                                                "_source_loc": "../target-project/app/page.tsx:40"
-                                              }
-                                            ],
-                                            "_source_loc": "../target-project/app/page.tsx:40"
-                                          },
-                                          "kind": "init",
-                                          "_source_loc": "../target-project/app/page.tsx:40"
-                                        },
-                                        {
-                                          "type": "Property",
-                                          "method": false,
-                                          "shorthand": false,
-                                          "computed": false,
-                                          "key": {
-                                            "type": "Identifier",
-                                            "name": "style",
-                                            "_source_loc": "../target-project/app/page.tsx:41"
-                                          },
-                                          "value": {
-                                            "type": "ObjectExpression",
-                                            "properties": [
-                                              {
-                                                "type": "Property",
-                                                "method": false,
-                                                "shorthand": false,
-                                                "computed": false,
-                                                "key": {
-                                                  "type": "Identifier",
-                                                  "name": "position",
-                                                  "_source_loc": "../target-project/app/page.tsx:42"
-                                                },
-                                                "value": {
-                                                  "type": "Literal",
-                                                  "value": "relative",
-                                                  "raw": "\"relative\"",
-                                                  "_source_loc": "../target-project/app/page.tsx:42"
-                                                },
-                                                "kind": "init",
-                                                "_source_loc": "../target-project/app/page.tsx:42"
-                                              },
-                                              {
-                                                "type": "Property",
-                                                "method": false,
-                                                "shorthand": false,
-                                                "computed": false,
-                                                "key": {
-                                                  "type": "Identifier",
-                                                  "name": "zIndex",
-                                                  "_source_loc": "../target-project/app/page.tsx:43"
-                                                },
-                                                "value": {
-                                                  "type": "Literal",
-                                                  "value": 10,
-                                                  "raw": "10",
-                                                  "_source_loc": "../target-project/app/page.tsx:43"
-                                                },
-                                                "kind": "init",
-                                                "_source_loc": "../target-project/app/page.tsx:43"
-                                              }
-                                            ],
-                                            "_source_loc": "../target-project/app/page.tsx:41"
-                                          },
-                                          "kind": "init",
-                                          "_source_loc": "../target-project/app/page.tsx:41"
-                                        }
-                                      ],
-                                      "_source_loc": "../target-project/app/page.tsx:37"
-                                    },
-                                    {
-                                      "type": "CallExpression",
-                                      "callee": {
-                                        "type": "MemberExpression",
-                                        "object": {
-                                          "type": "Identifier",
-                                          "name": "React",
-                                          "_source_loc": "../target-project/app/page.tsx:46"
-                                        },
-                                        "property": {
-                                          "type": "Identifier",
-                                          "name": "createElement",
-                                          "_source_loc": "../target-project/app/page.tsx:46"
-                                        },
-                                        "computed": false,
-                                        "optional": false,
-                                        "_source_loc": "../target-project/app/page.tsx:46"
-                                      },
-                                      "arguments": [
-                                        {
-                                          "type": "Identifier",
-                                          "name": "Image",
-                                          "_source_loc": "../target-project/app/page.tsx:46"
-                                        },
-                                        {
-                                          "type": "ObjectExpression",
-                                          "properties": [
-                                            {
-                                              "type": "Property",
-                                              "method": false,
-                                              "shorthand": false,
-                                              "computed": false,
-                                              "key": {
-                                                "type": "Identifier",
-                                                "name": "src",
-                                                "_source_loc": "../target-project/app/page.tsx:47"
-                                              },
-                                              "value": {
-                                                "type": "Literal",
-                                                "value": "/mapmaster-logo.png",
-                                                "raw": "\"/mapmaster-logo.png\"",
-                                                "_source_loc": "../target-project/app/page.tsx:47"
-                                              },
-                                              "kind": "init",
-                                              "_source_loc": "../target-project/app/page.tsx:47"
-                                            },
-                                            {
-                                              "type": "Property",
-                                              "method": false,
-                                              "shorthand": false,
-                                              "computed": false,
-                                              "key": {
-                                                "type": "Identifier",
-                                                "name": "alt",
-                                                "_source_loc": "../target-project/app/page.tsx:48"
-                                              },
-                                              "value": {
-                                                "type": "Literal",
-                                                "value": "MapMaster Logo",
-                                                "raw": "\"MapMaster Logo\"",
-                                                "_source_loc": "../target-project/app/page.tsx:48"
-                                              },
-                                              "kind": "init",
-                                              "_source_loc": "../target-project/app/page.tsx:48"
-                                            },
-                                            {
-                                              "type": "Property",
-                                              "method": false,
-                                              "shorthand": false,
-                                              "computed": false,
-                                              "key": {
-                                                "type": "Identifier",
-                                                "name": "width",
-                                                "_source_loc": "../target-project/app/page.tsx:49"
-                                              },
-                                              "value": {
-                                                "type": "Literal",
-                                                "value": 300,
-                                                "raw": "300",
-                                                "_source_loc": "../target-project/app/page.tsx:49"
-                                              },
-                                              "kind": "init",
-                                              "_source_loc": "../target-project/app/page.tsx:49"
-                                            },
-                                            {
-                                              "type": "Property",
-                                              "method": false,
-                                              "shorthand": false,
-                                              "computed": false,
-                                              "key": {
-                                                "type": "Identifier",
-                                                "name": "height",
-                                                "_source_loc": "../target-project/app/page.tsx:50"
-                                              },
-                                              "value": {
-                                                "type": "Literal",
-                                                "value": 250,
-                                                "raw": "250",
-                                                "_source_loc": "../target-project/app/page.tsx:50"
-                                              },
-                                              "kind": "init",
-                                              "_source_loc": "../target-project/app/page.tsx:50"
-                                            }
-                                          ],
-                                          "_source_loc": "../target-project/app/page.tsx:46"
-                                        }
-                                      ],
-                                      "optional": false,
-                                      "_source_loc": "../target-project/app/page.tsx:46"
-                                    }
-                                  ],
-                                  "optional": false,
-                                  "_source_loc": "../target-project/app/page.tsx:37"
+                                "value": {
+                                  "type": "Literal",
+                                  "value": 10,
+                                  "raw": "10",
+                                  "_source_loc": "../target-project/app/page.tsx:27"
                                 },
-                                "_source_loc": "../target-project/app/page.tsx:36"
+                                "kind": "init",
+                                "_source_loc": "../target-project/app/page.tsx:27"
+                              },
+                              {
+                                "type": "Property",
+                                "method": false,
+                                "shorthand": false,
+                                "computed": false,
+                                "key": {
+                                  "type": "Identifier",
+                                  "name": "minHeight",
+                                  "_source_loc": "../target-project/app/page.tsx:27"
+                                },
+                                "value": {
+                                  "type": "Literal",
+                                  "value": 50,
+                                  "raw": "50",
+                                  "_source_loc": "../target-project/app/page.tsx:27"
+                                },
+                                "kind": "init",
+                                "_source_loc": "../target-project/app/page.tsx:27"
                               }
                             ],
-                            "optional": false,
-                            "_source_loc": "../target-project/app/page.tsx:35"
-                          }
-                        ],
-                        "optional": false,
-                        "_source_loc": "../target-project/app/page.tsx:34"
-                      }
-                    ],
-                    "optional": false,
-                    "_source_loc": "../target-project/app/page.tsx:33"
-                  },
-                  "_source_loc": "../target-project/app/page.tsx:32"
+                            "_source_loc": "../target-project/app/page.tsx:27"
+                          },
+                          "kind": "init",
+                          "_source_loc": "../target-project/app/page.tsx:27"
+                        }
+                      ],
+                      "_source_loc": "../target-project/app/page.tsx:25"
+                    }
+                  ],
+                  "optional": false,
+                  "_source_loc": "../target-project/app/page.tsx:25"
                 }
               ],
-              "_source_loc": "../target-project/app/page.tsx:11"
+              "optional": false,
+              "_source_loc": "../target-project/app/page.tsx:22"
             },
-            "_source_loc": "../target-project/app/page.tsx:11"
-          },
-          "_source_loc": "../target-project/app/page.tsx:11"
-        }
-      ],
-      "kind": "var",
-      "_source_loc": "../target-project/app/page.tsx:11"
-    },
-    {
-      "type": "VariableDeclaration",
-      "declarations": [
-        {
-          "type": "VariableDeclarator",
-          "id": {
-            "type": "Identifier",
-            "name": "page_default",
-            "_source_loc": "../target-project/app/page.tsx:60"
-          },
-          "init": {
-            "type": "Identifier",
-            "name": "HomePage",
-            "_source_loc": "../target-project/app/page.tsx:60"
-          },
-          "_source_loc": "../target-project/app/page.tsx:60"
-        }
-      ],
-      "kind": "var",
-      "_source_loc": "../target-project/app/page.tsx:60"
+            "_source_loc": "../target-project/app/page.tsx:21"
+          }
+        ],
+        "_source_loc": "../target-project/app/page.tsx:8"
+      },
+      "_source_loc": "../target-project/app/page.tsx:8"
     },
     {
       "type": "ExportNamedDeclaration",
@@ -1345,7 +650,7 @@
           "type": "ExportSpecifier",
           "local": {
             "type": "Identifier",
-            "name": "page_default"
+            "name": "VulnerabilityTest"
           },
           "exported": {
             "type": "Identifier",
